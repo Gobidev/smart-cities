@@ -1,0 +1,102 @@
+header {
+    width: 100vw;
+    height: 12vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.header-green {
+    background-color: #70AD47;
+}
+
+header.header-red {
+    background-color: red;
+}
+
+header.header-black {
+    background-color: black;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 20px;
+    letter-spacing: 15px;
+    font-size: 3vw;
+    font-family: Bahnschrift, sans-serif;
+}
+
+h2 {
+    font-family: Calibri, sans-serif;
+    font-size: 2.5vw;
+    margin: 0;
+}
+
+.content {
+    width: 90vw;
+    height: 70vh;
+    margin: 50px;
+}
+
+.content img {
+    width: 19vw;
+    margin-right: 3vw;
+
+}
+
+.content-item {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-container-item {
+    margin-top: 50px;
+    width: 33%;
+    height: 33%;
+}
+
+.title-container-item img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 2.2vw;
+    font-family: Calibri, sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+li {
+    font-size: 2.4vw;
+    font-family: Calibri, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+.arrow img {
+    height: 12vh;
+    margin-left: 10px;
+}
+
+.whitespace {
+    height: 30px;
+}
