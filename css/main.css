@@ -49,13 +49,28 @@ h2 {
 .content {
     width: 90vw;
     height: 70vh;
-    margin: 50px;
+    margin: 5vw;
 }
 
-.content img {
+.content-below {
+    width: 90vw;
+    margin-left: 5vw;
+}
+
+.content-item img {
     width: 19vw;
     margin-right: 3vw;
 
+}
+
+.content-above {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+.content-above img {
+    width: 80vw;
 }
 
 .content-item {
