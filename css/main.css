@@ -36,13 +36,13 @@ body {
 h1 {
     margin: 20px;
     letter-spacing: 15px;
-    font-size: 3vw;
+    font-size: 4vw;
     font-family: Bahnschrift, sans-serif;
 }
 
 h2 {
     font-family: Calibri, sans-serif;
-    font-size: 2.5vw;
+    font-size: 3vw;
     margin: 0;
 }
 
@@ -106,6 +106,8 @@ p {
     font-family: Calibri, sans-serif;
     display: table-cell;
     vertical-align: middle;
+    hyphens: auto;
+    text-align: justify
 }
 
 li {
